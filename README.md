@@ -1,4 +1,4 @@
-INFO API
+*INFO API*
 A simple public API that returns basic personal information in JSON format, including email address, current datetime, and GitHub URL.
 Features
 
