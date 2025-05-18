@@ -34,9 +34,13 @@ Web Server: Uvicorn
 Deployment: Render
 
 Local Development Setup
+
+
 Prerequisites
 
 Python 3.8 or higher
+
+
 pip (Python package manager)
 
 Installation
@@ -44,11 +48,14 @@ Installation
 Clone the repository
 
 bash git clone https://github.com/onomeakpobaro/learn-info-api.git
+
+
 cd info-api
 
 Create and activate a virtual environment (optional but recommended)
 
 bash python -m venv venv
+
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 Install the dependencies
@@ -59,6 +66,7 @@ Update your personal information in main.py
 
 
 "email": "your-email@example.com"  # Replace with your actual email
+
 "github_url": "https://github.com/yourusername/learn-info-api"  # Replace with your actual GitHub URL
 
 Run the server locally
@@ -72,9 +80,15 @@ Option 1: Railway
 
 Create an account on Railway
 Create a new project from your GitHub repository
+
+
 Set up the deployment settings:
 
+
+
 Build Command: pip install -r requirements.txt
+
+
 Start Command: uvicorn main:app --host 0.0.0.0 --port $PORT
 
 
@@ -84,9 +98,13 @@ Option 2: Render
 
 Create an account on Render
 Create a new Web Service from your GitHub repository
+
 Set up the deployment settings:
 
+
 Build Command: pip install -r requirements.txt
+
+
 Start Command: uvicorn main:app --host 0.0.0.0 --port $PORT
 
 
