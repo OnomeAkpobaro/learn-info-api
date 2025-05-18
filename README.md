@@ -16,7 +16,7 @@ Simple health check endpoint
 
 *Endpoint*
 
-GET https://learn-info-api.onrender.com/
+GET https://info-api-9daa.onrender.com/
 
 Response Format
 json{
