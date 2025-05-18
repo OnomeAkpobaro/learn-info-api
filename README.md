@@ -1,4 +1,6 @@
 *INFO API*
+
+
 A simple public API that returns basic personal information in JSON format, including email address, current datetime, and GitHub URL.
 
 
@@ -11,7 +13,7 @@ Fast response time (< 500ms)
 Simple health check endpoint
 
 
-*API Specification*
+
 *Endpoint*
 
 GET https://learn-info-api.onrender.com/
@@ -22,6 +24,8 @@ json{
   "current_datetime": "2025-05-16T09:30:00Z", 
   "github_url": "https://github.com/yourusername/learn-info-api"
 }
+
+
 Tech Stack
 
 Framework: FastAPI
@@ -49,7 +53,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 Install the dependencies
 
-bashpip install -r requirements.txt
+bash pip install -r requirements.txt
 
 Update your personal information in main.py
 
@@ -59,7 +63,7 @@ python# In the get_info function, update:
 
 Run the server locally
 
-bashpython main.py
+bash python main.py
 
 Access the API at http://localhost:8000 and the API documentation at http://localhost:8000/docs
 
@@ -86,34 +90,9 @@ Build Command: pip install -r requirements.txt
 Start Command: uvicorn main:app --host 0.0.0.0 --port $PORT
 
 
-Deploy your application
 
-Option 3: Heroku
 
-Create an account on Heroku
-Install the Heroku CLI and login
-Create a new app and set it up for deployment
 
-bashheroku create your-app-name
-git push heroku main
-Testing
-To test the API, you can use tools like:
-
-Your web browser (for GET requests)
-cURL from the command line
-API testing tools like Postman or Insomnia
-
-Example cURL command:
-bashcurl -X GET https://your-deployed-url.com/
-API Documentation
-FastAPI automatically generates API documentation. Once the server is running, you can access:
-
-Swagger UI: https://your-deployed-url.com/docs
-ReDoc: https://your-deployed-url.com/redoc
-
-Related Resources
-
-HNG Internship - Hire Python Developers
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
