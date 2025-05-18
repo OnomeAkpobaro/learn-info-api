@@ -43,12 +43,12 @@ Installation
 
 Clone the repository
 
-bashgit clone https://github.com/onomeakpobaro/learn-info-api.git
+bash git clone https://github.com/onomeakpobaro/learn-info-api.git
 cd info-api
 
 Create and activate a virtual environment (optional but recommended)
 
-bashpython -m venv venv
+bash python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 Install the dependencies
@@ -57,7 +57,7 @@ bash pip install -r requirements.txt
 
 Update your personal information in main.py
 
-python# In the get_info function, update:
+
 "email": "your-email@example.com"  # Replace with your actual email
 "github_url": "https://github.com/yourusername/learn-info-api"  # Replace with your actual GitHub URL
 
