@@ -90,9 +90,3 @@ Build Command: pip install -r requirements.txt
 Start Command: uvicorn main:app --host 0.0.0.0 --port $PORT
 
 
-
-
-
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
