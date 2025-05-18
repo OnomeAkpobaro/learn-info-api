@@ -1,6 +1,8 @@
 *INFO API*
 A simple public API that returns basic personal information in JSON format, including email address, current datetime, and GitHub URL.
-Features
+
+
+*Features*
 
 Returns personal information in JSON format
 Dynamically generates current UTC datetime in ISO 8601 format
@@ -8,8 +10,9 @@ CORS enabled for cross-origin requests
 Fast response time (< 500ms)
 Simple health check endpoint
 
-API Specification
-Endpoint
+
+*API Specification*
+*Endpoint*
 
 GET https://learn-info-api.onrender.com/
 
